@@ -8,9 +8,8 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/brands/logocircle.png" rel="icon">
+
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -29,31 +28,32 @@
 
 </head>
 
-<body class="portfolio-details-page">
-
-   <header id="header" class="header d-flex align-items-center fixed-top">
+<body class="details-page">
+  <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <img src="assets/img/brands/last_logo_.png" style="width: 130px; height: auto; float: left;">
 
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-
+     
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html" >Home</a></li>
           <li><a href="index.html">About</a></li>
-          <li><a href="brand-details">Brands</a></li>
           <li><a href="index.html">Clients          </a></li>
-      
+          <li><a href="index.html"class="active">Brands</a></li>
          
-          <li><a href="#contact">Contact</a></li>
+       
+         
+          <li><a href="index.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
+  
 
     </div>
   </header>
@@ -65,8 +65,9 @@
     <div class="page-title dark-background">
       <div class="container position-relative">
         <div>
-          <h1 style="padding-top: 90px; color: #000;">PRIMEWINE</h1>
-          <img id="brandImage" alt="Brand Image" style="width: 20%; max-height: 500px;" />
+          <img id="brandImage" alt="Brand Image" style="width: 27%; max-height: 500px;padding-top: 90px;" />
+          <h2 style=" color: #000; padding-top: 10px;">PRIMELINE</h2>
+
         </div>
       
         <script>
@@ -84,7 +85,7 @@
           }
         
           // Set the title dynamically
-          const pageTitle = document.querySelector('.page-title h1');
+          const pageTitle = document.querySelector('.page-title h2');
           if (title) {
             pageTitle.textContent = decodeURIComponent(title);
           } else {
@@ -137,9 +138,7 @@
                   <img src="assets/img/furniture.webp" alt="">
                 </div>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/Sanitary-wares-Premium.jpg" alt="">
-                </div>
+               
 
                 <div class="swiper-slide">
                   <img src="assets/img/sanitary.jpg" alt="">

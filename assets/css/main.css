@@ -369,7 +369,7 @@ h6 {
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color: #EB5151;
   }
 
   .navmenu .active i,
@@ -1410,7 +1410,19 @@ section,
 .Brand1 .Brand1-content:hover img {
   transform: scale(1.1);
 }
+.Brand1 .Brand1-item {
+  overflow: hidden;
+  border-right: 3px solid var(--background-color);
+  border-bottom: 3px solid var(--background-color);
+}
 
+.Brand1 .Brand1-item img {
+  transition: all ease-in-out 0.4s;
+}
+
+.Brand1 .Brand1-item:hover img {
+  transform: scale(1.1);
+}
 
 
 
